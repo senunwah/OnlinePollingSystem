@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=&quot;|DataDirectory|\aspnet-Online Polling System Administrator-20151126113321.mdf&quot;;Initial Catalog=&quot;aspnet-Online Polling System Administrator-20151126113321&quot;;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="MyDbConn1-Web.config Connection String" description="MyDbConn1 Connection String used in web.config by the application to access the database." defaultValue="Server=enunwah-pc\sqlexpress;Database=OnlinePollingSystem;Trusted_Connection=Yes;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDbConn1']/@connectionString" />
+  </parameter>
+  <parameter name="MyDbConn2-Web.config Connection String" description="MyDbConn2 Connection String used in web.config by the application to access the database." defaultValue="Initial Catalog=OnlinePollingSystem; Data Source=enunwah-pc\sqlexpress;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDbConn2']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site 2" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=enunwah-pc\sqlexpress;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="MyDbConn1-Web.config Connection String" description="" value="Server=enunwah-pc\sqlexpress;Database=OnlinePollingSystem;Trusted_Connection=Yes;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDbConn1']/@connectionString" />
+  </parameter>
+  <parameter name="MyDbConn2-Web.config Connection String" description="" value="Initial Catalog=OnlinePollingSystem; Data Source=enunwah-pc\sqlexpress;Integrated Security=SSPI;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Stephen\\Documents\\Visual\ Studio\ 2013\\Projects\\Online\ Polling\ System\ Administrator\\Online\ Polling\ System\ Administrator\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDbConn2']/@connectionString" />
+  </parameter>
+</parameters>

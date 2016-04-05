@@ -1,0 +1,8 @@
+<html>
+<head>
+Redirect
+</head>
+<body>
+<a href="Site.Master.cs" ></a>
+</body>
+</html>
